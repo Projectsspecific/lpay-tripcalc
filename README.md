@@ -14,6 +14,9 @@ Build the project:
          
 Test the Unit cases :
              - mvn test
+
+Test Coverage Report :
+            mvn jacoco:report
              
 Start the application :
                - mvn spring-boot:run
