@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "fare",
+      "type": "com.example.lpay.service.TripCalculator",
+      "sourceType": "com.example.lpay.service.TripCalculator"
+    }
+  ],
+  "properties": [
+    {
+      "name": "fare.map",
+      "type": "java.util.Map<java.lang.String,java.util.Map<java.lang.String,java.math.BigDecimal>>",
+      "sourceType": "com.example.lpay.service.TripCalculator"
+    }
+  ],
+  "hints": []
+}

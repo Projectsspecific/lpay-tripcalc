@@ -1,0 +1,2 @@
+Started,Finished,DurationSecs,FromStopId,ToStopId,ChargeAmount,CompanyId,BusID,PAN,Status
+2025-04-14T15:50:42.174632800,2025-04-14T15:55:42.174632800,300,Stop1,Stop2,3.25,Company1,Bus1,12345,COMPLETED

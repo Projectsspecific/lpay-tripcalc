@@ -1,0 +1,36 @@
+fareMap:
+  Stop1:
+    Stop2: 3.25
+    Stop3: 7.30
+  Stop2:
+    Stop1: 3.25
+    Stop3: 5.50
+  Stop3:
+    Stop1: 7.30
+    Stop2: 5.50
+
+spring:
+  security:
+    user:
+      name: admin # Username for authentication
+      password: password # Password for authentication
+roles:
+  admin: ADMIN # Role assigned to the user
+
+test:
+  tapsFilePath: "src/test/resources/taps.csv"
+  specialCharFile: "src/test/resources/special-characters-taps.csv"
+
+output:
+  tripsFilePath: "src/test/resources/output-trips.csv" # Path for processed trips output file
+
+batch:
+  size: 100 # Batch size for large dataset processing
+
+logging:
+  level:
+    com.example.lpay: INFO # Logging level for application-specific components
+    org.springframework: DEBUG # Logging level for Spring Framework components
+
+server:
+  port: 8080 # Application server port

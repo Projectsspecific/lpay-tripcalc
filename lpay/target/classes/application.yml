@@ -1,0 +1,22 @@
+fare:
+  map:
+    Stop1:
+      Stop2: 3.25
+      Stop3: 7.30
+    Stop2:
+      Stop1: 3.25
+      Stop3: 5.50
+    Stop3:
+      Stop1: 7.30
+      Stop2: 5.50
+
+output:
+  tripsFilePath: "./trips.csv" # Path for processed trips output file
+
+logging:
+  level:
+    com.example.lpay: INFO # Logging level for application-specific components
+    org.springframework: DEBUG # Logging level for Spring Framework components
+
+server:
+  port: 8080 # Application server port
