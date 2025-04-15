@@ -25,6 +25,11 @@ Testing the endpoint -
 curl --location --request POST 'http://localhost:8080/trips/process'
 ![image](https://github.com/user-attachments/assets/bb90f554-3a24-4f94-bc5b-68d1ffd42818)
 
+Test Coverage -
+
+![image](https://github.com/user-attachments/assets/72e37fe2-e813-4446-ac65-bcfe2735d47f)
+
+
 Assumptions:
 1) Trip input file is for 1 day period
 2) File is sorted by Date/Time
