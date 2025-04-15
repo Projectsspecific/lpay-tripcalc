@@ -6,8 +6,8 @@
 
 ## Running the application -
 1) Clone the project - lpay-tripcalc
-git clone https://github.com/Projectsspecific/lpay-tripcalc.git
-cd lpay-tripcalc
+      - git clone https://github.com/Projectsspecific/lpay-tripcalc.git
+      - cd lpay-tripcalc
 
 Build the project - **mvn clean install**
 Test the Unit cases-**mvn test**
