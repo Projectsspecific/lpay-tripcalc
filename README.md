@@ -9,9 +9,12 @@
       - git clone https://github.com/Projectsspecific/lpay-tripcalc.git
       - cd lpay-tripcalc
 
-Build the project - **mvn clean install**
-Test the Unit cases-**mvn test**
-Start the application - **mvn spring-boot:run**
+Build the project 
+         - **mvn clean install**
+Test the Unit cases
+             -**mvn test**
+Start the application 
+               - **mvn spring-boot:run**
 
 Testing the endpoint - 
 curl --location --request POST 'http://localhost:8080/trips/process'
